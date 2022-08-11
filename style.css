@@ -24,25 +24,28 @@ nav {
     margin-right: 10px;
 }
 
+ul > a, ul > button {
+    padding: 0 8px;
+}
 
   
-  #header-nav img {
+#header-nav img {
     width: 30px;
     padding: 5px;
     margin: auto 7px;
   }
   
-  #header-nav img:hover {
+#header-nav img:hover {
     opacity: 0.8;
   }
   
-  #header-nav button {
-    background-color: #1a73e8;
+#header-nav button {
+    background-color: #191096;
     border: 1px solid transparent;
     color: white;
     width: 80px;
-    height: 40px;
-    border-radius: 5px;
+    height: 30px;
+    border-radius: 10px;
   }
   
   #header-nav button:hover {
