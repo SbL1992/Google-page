@@ -53,3 +53,18 @@ header ul li a{
 header ul li a:hover{
   text-decoration: underline;
 }
+
+/* MAIN */
+
+.main{
+  border: 1px solid red;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.main__logo {
+  width: 272px;
+  height: 92px;
+}
+
+.main__search-bar 
