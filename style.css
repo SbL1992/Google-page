@@ -1,69 +1,51 @@
 /** Reseting */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  text-decoration: none;
-}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+  }
 
 body {
-   font-family: Arial, Helvetica, sans-serif;
-  font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
 }
 
-/* HEADER */
+/*! HEADER */
 
-.header{
-  padding: 20px;
-  line-height: 36px;
+.header {
+    padding: 20px;
+    line-height: 36px;
 }
-
-.header__left{
-  float: left;
+.header__left {
+    float: left;
 }
-
-.header__right{
-  float: right;
+.header__right {
+    float: right;
 }
-
 header ul li {
-  display: inline-block;
+    display: inline-block;
 }
-header ul li a{
-  color: black;
-  padding: 0.5rem;
+header ul li a {
+    color: black;
+    padding: 0.5rem;
 }
-
 .header__right--appicon{
-
-  vertical-align: middle;
+    vertical-align: middle;
 }
+
 .header__right--button{
-  background-color:  #4285F4 ;
-  color: white;
-  border: none;
-  width: 96px;
-  height: 36px;
-  border-radius: 4px;
-  font-weight: 600;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    width: 96px;
+    height: 36px;
+    border-radius: 4px;
+    font-weight: 600;
 }
 .header__right--button:hover{
-  box-shadow: rgb(211, 211, 211) 3px 3px 5px;
-  cursor: pointer;
+    box-shadow: rgb(211, 211, 211) 3px 3px 5px;
+    cursor: pointer;
 }
-header ul li a:hover{
-  text-decoration: underline;
+header ul li a:hover {
+    text-decoration: underline;
 }
-
-/* MAIN */
-
-.main{
-  border: 1px solid red;
-  margin-top: 200px;
-  text-align: center;
-}
-
-.main__logo {
-  width: 272px;
-  height: 92px;
-}
-
