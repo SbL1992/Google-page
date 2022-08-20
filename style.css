@@ -22,12 +22,15 @@ body {
 .header__right {
     float: right;
 }
-header ul li {
+ul li {
     display: inline-block;
 }
-header ul li a {
+ul li a {
     color: black;
     padding: 0.5rem;
+}
+ul li a:hover {
+    text-decoration: underline;
 }
 .header__right--appicon{
     vertical-align: middle;
@@ -46,9 +49,7 @@ header ul li a {
     box-shadow: rgb(211, 211, 211) 3px 3px 5px;
     cursor: pointer;
 }
-header ul li a:hover {
-    text-decoration: underline;
-}
+
 
 /*! MAIN */
 .main{
@@ -117,3 +118,23 @@ header ul li a:hover {
 
 /*! FOOTER */
 
+.footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #dadce0;
+    width: 100%;
+}
+.footer__country{
+    font-size: 14px;
+    padding-left: 20px;
+    border-bottom: #5f6368;
+    
+}
+.footer__bottom--left{
+float: left;
+padding: 20px;
+}
+.footer__bottom--right{
+    float: right;
+    padding: 20px;
+}
